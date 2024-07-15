@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line: height 1.6;
+    background-color: black;
+
+}
+.header{
+    background-color:black;
+    color: aqua;
+    padding:10px 0;
+    position: sticky;
+    top:0;
+    /*z-index:1000;*/
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+}
+.nav-link{
+    color:beige;
+    text-decoration: none;
+    /*tblr*/
+    padding:10px 20px;
+}
+.nav-link:hover{
+    background-color: red;
+}
+.section{
+    padding: 60px 20 px;
+    text-align: center;
+    color:deeppink;
+}
+.home{
+    background:linear-gradient(to left,#333,#333 5%,#eee 75%,#333 75%)
+}
+.about{
+    background-color: darkcyan;
+}
+
+
